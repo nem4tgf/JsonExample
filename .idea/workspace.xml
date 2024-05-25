@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d25c2ad-1620-477c-913e-d10b8960063f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonExample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Read_JSON_simple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Write_JSON_simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam/ApplicationJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam/ApplicationJsonRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam/ConnectionDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam/studentToJsonFileWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/json_simple_3_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_3_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JsonExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JsonExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Read_JSON_simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Read_JSON_simple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Write_JSON_simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Write_JSON_simple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2glBRpLGo8tuXqAGIEpQ89Cvkhv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,7 +48,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ApplicationJsonRead.executor": "Run",
+    "Application.MySQLConnectionDB.executor": "Run",
+    "Application.Read_JSON_simple.executor": "Run",
     "Application.Write_JSON_simple.executor": "Run",
+    "Application.Write_Student.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -54,14 +63,14 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "11",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Java/gson-2.11.0.jar",
+    "last_opened_file_path": "E:/Java/mysql-connector-java-8.0.28.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/nguye/IdeaProjects/JsonExample/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
@@ -84,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716262283633</updated>
       <workItem from="1716262284796" duration="3265000" />
+      <workItem from="1716600398758" duration="2700000" />
     </task>
     <servers />
   </component>

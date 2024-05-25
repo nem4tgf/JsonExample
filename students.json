@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Huy",
+    "address": "Ha Noi",
+    "email": "huy@gmail.com",
+    "phone": "01234567",
+    "DOB": "May 25, 2024"
+  },
+  {
+    "id": 2,
+    "name": "Long",
+    "address": "Ha Noi",
+    "email": "long@gmail.com",
+    "phone": "0812351",
+    "DOB": "May 24, 2024"
+  },
+  {
+    "id": 3,
+    "name": "Linh",
+    "address": "Thai Nguyen",
+    "email": "linh@gmail.com",
+    "phone": "09656123",
+    "DOB": "May 23, 2024"
+  },
+  {
+    "id": 4,
+    "name": "Hieu",
+    "address": "Thai Binh",
+    "email": "hieu@gmail.com",
+    "phone": "0757472",
+    "DOB": "May 22, 2024"
+  },
+  {
+    "id": 5,
+    "name": "Vu",
+    "address": "Ha Noi",
+    "email": "vu@gmail.com",
+    "phone": "0164812",
+    "DOB": "May 21, 2024"
+  }
+]
